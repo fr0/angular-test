@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {FooComponent} from './foo.component';
+import { UIComponentsModule } from 'lib-test';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FooComponent
+    AppComponent
   ],
   imports: [
+    UIComponentsModule,
     BrowserModule,
     AppRoutingModule
   ],

@@ -20,7 +20,8 @@ import { Component } from '@angular/core';
         <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
       </li>
     </ul>
-    <app-foo data-name="foo"></app-foo>
+    <test-foo></test-foo>
+    <test-bar></test-bar>
   `,
   styles: [`
 
