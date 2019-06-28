@@ -1,20 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UIComponentsModule } from 'lib-test';
+import {FormsModule} from '@angular/forms';
+import {ComponentsModule} from '../components/components.module';
+import {Route1Component} from './route1.component';
+import {Router, RouterModule, Routes} from '@angular/router';
+
+const routes: Routes = [
+  {path: 'route1', component: Route1Component},
+  {path: '', redirectTo: '/route1', pathMatch: 'full'}
+];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Route1Component
   ],
   imports: [
-    UIComponentsModule,
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    ComponentsModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(router: Router) {}
+}
