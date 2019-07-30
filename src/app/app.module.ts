@@ -3,9 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
-import {ComponentsModule} from '../components/components.module';
 import {Route1Component} from './route1.component';
 import {Router, RouterModule, Routes} from '@angular/router';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {UIComponentsModule} from 'lib-test';
 
 const routes: Routes = [
   {path: 'route1', component: Route1Component},
@@ -19,8 +20,9 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
-    ComponentsModule,
+    UIComponentsModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],
