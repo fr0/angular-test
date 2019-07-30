@@ -2,28 +2,28 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/architect@0.802.0-next.0":
-  version "0.802.0-next.0"
-  resolved "http://vmusindatlas:4873/@angular-devkit%2farchitect/-/architect-0.802.0-next.0.tgz#a224bfabc4c77e7359b556e17ae30bde479048f3"
-  integrity sha512-y9ZL2Gz0Fqw8Em2yMLYAIfnRhkf0qfKS5hsmXybqour9WWZr0JzkTRNQtLzvUdykEcZREVntUeMrX0GKmaQKDQ==
+"@angular-devkit/architect@0.801.3":
+  version "0.801.3"
+  resolved "http://vmusindatlas:4873/@angular-devkit%2farchitect/-/architect-0.801.3.tgz#7afce7623baefb896367e7038f4c4922cc9c2ec5"
+  integrity sha512-gg6ZyJMiRYuzzmbpuDszrsE/hpwzoUnlOVoLNNzbACGBSDiqelC1mvGHb9JQM56Sy8gSjZn6RT0K2/Og79GoSg==
   dependencies:
-    "@angular-devkit/core" "8.2.0-next.0"
+    "@angular-devkit/core" "8.1.3"
     rxjs "6.4.0"
 
-"@angular-devkit/build-angular@~0.802.0-next.0":
-  version "0.802.0-next.0"
-  resolved "http://vmusindatlas:4873/@angular-devkit%2fbuild-angular/-/build-angular-0.802.0-next.0.tgz#ed352bdcd2fe6f1d48ee7c194250e8b2042ed8b3"
-  integrity sha512-IugjSfvs8FAhFWoJ6Ek3ebOgiYgmI4cNlsT8HavdXFXtsSUp1E6I9lKQv6vvX0YFP/BgKA6Tie4CWdPYUnQuHA==
+"@angular-devkit/build-angular@~0.801.3":
+  version "0.801.3"
+  resolved "http://vmusindatlas:4873/@angular-devkit%2fbuild-angular/-/build-angular-0.801.3.tgz#357d16846a87bed5b2f6c1f91e48ebf8476f1025"
+  integrity sha512-BmN48xepRzQN2h2L7k9MhEWSAmEJj8celtD9Tu9Gn2DeM0yh2TFW9OKFKJlqyF3vGd3at24bqHOXI4MtDeltQQ==
   dependencies:
-    "@angular-devkit/architect" "0.802.0-next.0"
-    "@angular-devkit/build-optimizer" "0.802.0-next.0"
-    "@angular-devkit/build-webpack" "0.802.0-next.0"
-    "@angular-devkit/core" "8.2.0-next.0"
-    "@ngtools/webpack" "8.2.0-next.0"
-    ajv "6.10.1"
-    autoprefixer "9.6.1"
+    "@angular-devkit/architect" "0.801.3"
+    "@angular-devkit/build-optimizer" "0.801.3"
+    "@angular-devkit/build-webpack" "0.801.3"
+    "@angular-devkit/core" "8.1.3"
+    "@ngtools/webpack" "8.1.3"
+    ajv "6.10.0"
+    autoprefixer "9.6.0"
     browserslist "4.6.3"
-    caniuse-lite "1.0.30000983"
+    caniuse-lite "1.0.30000979"
     circular-dependency-plugin "5.0.2"
     clean-css "4.2.1"
     copy-webpack-plugin "5.0.3"
@@ -45,7 +45,7 @@
     postcss-loader "3.0.0"
     raw-loader "1.0.0"
     rxjs "6.4.0"
-    sass "1.22.3"
+    sass "1.22.2"
     sass-loader "7.1.0"
     semver "6.2.0"
     source-map-loader "0.2.4"
@@ -56,7 +56,7 @@
     stylus-loader "3.0.2"
     terser-webpack-plugin "1.3.0"
     tree-kill "1.2.1"
-    webpack "4.35.3"
+    webpack "4.35.2"
     webpack-dev-middleware "3.7.0"
     webpack-dev-server "3.7.2"
     webpack-merge "4.2.1"
@@ -64,64 +64,64 @@
     webpack-subresource-integrity "1.1.0-rc.6"
     worker-plugin "3.1.0"
 
-"@angular-devkit/build-optimizer@0.802.0-next.0":
-  version "0.802.0-next.0"
-  resolved "http://vmusindatlas:4873/@angular-devkit%2fbuild-optimizer/-/build-optimizer-0.802.0-next.0.tgz#3c77db6149858710e7c09fc34e4e5d385615c280"
-  integrity sha512-zBVhdl5Xz0rmmRe+NBBQIPye6GGSFA+gnBZDaRBPiyOvk3Yqae+qK+VgdwZZitcGcTYOIk3G2lKiHoUvn25xuA==
+"@angular-devkit/build-optimizer@0.801.3":
+  version "0.801.3"
+  resolved "http://vmusindatlas:4873/@angular-devkit%2fbuild-optimizer/-/build-optimizer-0.801.3.tgz#f4620bd8a5a5db269a336e2e572770806ffb2e16"
+  integrity sha512-5wyzek1Ls7T9bh24yGDC/3Ss1YePpnOyBu0D8mJkByjPJjQr0xXR6UPx/7Idq6Y8BMeGO/+MiMOLZoUTPTIa0w==
   dependencies:
     loader-utils "1.2.3"
     source-map "0.5.6"
     typescript "3.4.5"
     webpack-sources "1.3.0"
 
-"@angular-devkit/build-webpack@0.802.0-next.0":
-  version "0.802.0-next.0"
-  resolved "http://vmusindatlas:4873/@angular-devkit%2fbuild-webpack/-/build-webpack-0.802.0-next.0.tgz#e6bfe348a1ff43c1610d76fbabf7e75db24ec904"
-  integrity sha512-aMT090IbC8zuVwm8zuUzKtTYrXCqUo3W/56zKvZOBQqU3Hge9xxdMaPbEd0TJQB2Dp7ExajiHwVZuwOC5TPeKg==
+"@angular-devkit/build-webpack@0.801.3":
+  version "0.801.3"
+  resolved "http://vmusindatlas:4873/@angular-devkit%2fbuild-webpack/-/build-webpack-0.801.3.tgz#5d7f2cc43d13a36c3634d039dc27da1205f66302"
+  integrity sha512-IuR1WKldZwrAQWlKCLv+MnNeR1tWFCSJ9wXAgKqvlAPiYHEvTvazRVbWerxgVFvL4MCOt2wYVz/AqQWVYAhwlQ==
   dependencies:
-    "@angular-devkit/architect" "0.802.0-next.0"
-    "@angular-devkit/core" "8.2.0-next.0"
+    "@angular-devkit/architect" "0.801.3"
+    "@angular-devkit/core" "8.1.3"
     rxjs "6.4.0"
     webpack-merge "4.2.1"
 
-"@angular-devkit/core@8.2.0-next.0":
-  version "8.2.0-next.0"
-  resolved "http://vmusindatlas:4873/@angular-devkit%2fcore/-/core-8.2.0-next.0.tgz#741112edfa15386cfefd990f8fb058ee4b941623"
-  integrity sha512-mjPr4EKuS3FNiZMFOWbNR3GQZAAqs2MXwxfL2A9zyxmxr6mzxEwy8u+0efyksmzphxVKX8OCRMKQYQESr5h6HA==
+"@angular-devkit/core@8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular-devkit%2fcore/-/core-8.1.3.tgz#2de64de07aebb1ff879abec976f2e698a30da712"
+  integrity sha512-Vj5fowuz27J+S74U1+MrSrJ7vI+OZC5HBOp4m7rrh/GcYlujcX3BUu0Bxi7LI1v90yDsr0s/iEAKsff05ByXiw==
   dependencies:
-    ajv "6.10.1"
+    ajv "6.10.0"
     fast-json-stable-stringify "2.0.0"
     magic-string "0.25.3"
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@8.2.0-next.0":
-  version "8.2.0-next.0"
-  resolved "http://vmusindatlas:4873/@angular-devkit%2fschematics/-/schematics-8.2.0-next.0.tgz#6ccae8c354d385ae48113814e08ff526c68618cb"
-  integrity sha512-BojUe4XVSFwSt+CI4JjGAdlMchpbDMgpvh8n8mbEX2BrNBQ1R3FaAIpcuJ4movzX/D6xt53opx6J00TRb4lbKg==
+"@angular-devkit/schematics@8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular-devkit%2fschematics/-/schematics-8.1.3.tgz#09d6e9d054ba09795325e81c35f2e0a0a56c862b"
+  integrity sha512-nz3b0uXu3w3PPLq4D+ersjeX/AyW3Amq7UwXa8lZFoJ0oc8cPjXW+h4D56rNw2GbOGZX7aaNe/Cxd9SBt0wF2A==
   dependencies:
-    "@angular-devkit/core" "8.2.0-next.0"
+    "@angular-devkit/core" "8.1.3"
     rxjs "6.4.0"
 
-"@angular/animations@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2fanimations/-/animations-8.2.0-next.1.tgz#c942405f368d45212dca67503bf7136c23b20341"
-  integrity sha512-yEuzoG3ocKH1eY2ZoDuLvA0YypKO/zU8MejOIoh+U/w6wtl6IiEWySeHraGfOAtzGzQ6dAJFZ1JwIFI5gF5YHg==
+"@angular/animations@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fanimations/-/animations-8.1.3.tgz#369853b2d74c6e99086243a747d05f0f77286f96"
+  integrity sha512-IdWz2EcF+8ZM7LSZ+Kc64RNoLQK7t7hJr+3nKuiTZDncIwMcV3yPn98Jz5BncLNcK0vkYju/hPqnWJgI/0+w6A==
   dependencies:
     tslib "^1.9.0"
 
-"@angular/cli@~8.2.0-next.0":
-  version "8.2.0-next.0"
-  resolved "http://vmusindatlas:4873/@angular%2fcli/-/cli-8.2.0-next.0.tgz#a3e262b964c8df6820b76a2a706e591626d85fa0"
-  integrity sha512-mB5Bc5LKheXoZDCLnDqh0sZVvXPCsO61kBOmZsY1tYujvyjmIEnlwoKaY3+MoBncs2ZKpB6OWb4dJQThb9Q/GQ==
+"@angular/cli@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fcli/-/cli-8.1.3.tgz#9a12953eb0be68c3c96712111e29ed437cecfa22"
+  integrity sha512-8BuN+UW1etRGS2U8rnxLagcA/zCxAmrtH6cB943CecPkr3p9+VUlVXtrRU8lkQE/wdrGmJjS5qkG9TybTIPRwg==
   dependencies:
-    "@angular-devkit/architect" "0.802.0-next.0"
-    "@angular-devkit/core" "8.2.0-next.0"
-    "@angular-devkit/schematics" "8.2.0-next.0"
-    "@schematics/angular" "8.2.0-next.0"
-    "@schematics/update" "0.802.0-next.0"
+    "@angular-devkit/architect" "0.801.3"
+    "@angular-devkit/core" "8.1.3"
+    "@angular-devkit/schematics" "8.1.3"
+    "@schematics/angular" "8.1.3"
+    "@schematics/update" "0.801.3"
     "@yarnpkg/lockfile" "1.1.0"
-    ansi-colors "4.1.1"
+    ansi-colors "4.1.0"
     debug "^4.1.1"
     ini "1.3.5"
     inquirer "6.4.1"
@@ -134,17 +134,17 @@
     universal-analytics "^0.4.20"
     uuid "^3.3.2"
 
-"@angular/common@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2fcommon/-/common-8.2.0-next.1.tgz#0ced2e49141839d1e891a47536eba7d3bc247bbc"
-  integrity sha512-18Q3YuNsxaBaHFKS5anqHa1nsHpvkJAvBgBo+5uwjNsjkIAlJ+VHrykkghGUymhIt7xaZY5pkk7tC6Jm5Y+9Yw==
+"@angular/common@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fcommon/-/common-8.1.3.tgz#ef6628b2eda25e6e9d5134dd3b6a96c906905e34"
+  integrity sha512-AnTlYV+Y3HYjJsAIt2AkIJ63qphvu9RNIJSZS61zQ4YBty29aslAJ/jh3PSWD0Yj9UT/AgzquJhfhhNEuImDRw==
   dependencies:
     tslib "^1.9.0"
 
-"@angular/compiler-cli@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2fcompiler-cli/-/compiler-cli-8.2.0-next.1.tgz#2f92e8462985886aa9bb90121e884b1903fda53a"
-  integrity sha512-89yeDR/QHrxKKKITlr4IIYt7mIKQaob74UGl3DyISFzi+vSE5dqU2AW9F3i8w2YkClyoaiSDfbJJk2v7fzNy2A==
+"@angular/compiler-cli@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fcompiler-cli/-/compiler-cli-8.1.3.tgz#a740a53b720bd133d83d476d58a6a11fad7587f9"
+  integrity sha512-rzlKU/xo6AzSPBLnJ/jeSwgojn/MaByTaGFG4THLRUizfGPqAsmppQ12Nmqr9faIiuG0k/izGSoWmppCJEK8FA==
   dependencies:
     canonical-path "1.0.0"
     chokidar "^2.1.1"
@@ -153,55 +153,54 @@
     magic-string "^0.25.0"
     minimist "^1.2.0"
     reflect-metadata "^0.1.2"
-    shelljs "^0.8.1"
     source-map "^0.6.1"
     tslib "^1.9.0"
     yargs "13.1.0"
 
-"@angular/compiler@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2fcompiler/-/compiler-8.2.0-next.1.tgz#e421c85f21c62aae637af3750642612614b53d64"
-  integrity sha512-jz1V1qpieKtsUZVLK+fxXbFwE60n2eDv3heAtCvoAtoJZAe5u0WJEiTPzf8ZjMOfSfedCsOxy0/q+3EdZbAR7w==
+"@angular/compiler@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fcompiler/-/compiler-8.1.3.tgz#6eea38f4f4511d37e2b5df04da04fefef9303f15"
+  integrity sha512-mKeRkpPy/iBPGBCVQIPF9x4f1S68ilEYaQTTfHoLR0OfivEQsyGuf2GEegwbTosEBX3JF+0JHfCNvsAE1zI5Og==
   dependencies:
     tslib "^1.9.0"
 
-"@angular/core@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2fcore/-/core-8.2.0-next.1.tgz#a38aade7fb4e076b32ee92b43f976cff94dfa918"
-  integrity sha512-dFjdypTC0Fa8x71uBlSZkQNzKDhvguC4srV4z69v3OmLhYZetyzDoV6e4cbex2W4AIkeOjVqO19NC79VH12iUQ==
+"@angular/core@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fcore/-/core-8.1.3.tgz#3b12cf3785419c573cd54116ba80fc798f75448a"
+  integrity sha512-45ocymDkXhmgluhaIX/O6IgqGPCLOlSYEXYpJ660QS1JgprKU7Ae9mWiNSmbBmT0OGV/sKKF8SNMQAGOHgio6Q==
   dependencies:
     tslib "^1.9.0"
 
-"@angular/forms@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2fforms/-/forms-8.2.0-next.1.tgz#6f9fe3d4b2cc597f602148cc3645dd0834311028"
-  integrity sha512-CwLzgksdkL45z7c8I+zDbm6onW7i7mwzXlE5DmGh1dbgMibSyy7FDJLdRfoQeAcTCdzDFoMJn7C2JQZal7lp0g==
+"@angular/forms@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fforms/-/forms-8.1.3.tgz#b23722ab36a5e69384dab71210f9eb3d7e116378"
+  integrity sha512-NabNiUsR1XgrI1/T8hFwbTH0BMqhKd1riSTU+xyJ3qVbdmORq1xnf6/dLbljNGxViMU28P8hBXvyf1BoTS+HyQ==
   dependencies:
     tslib "^1.9.0"
 
-"@angular/language-service@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2flanguage-service/-/language-service-8.2.0-next.1.tgz#e8815b180f067c7b9bb66179311c76d923cbbe53"
-  integrity sha512-3/VlLBN+zN1NrWou2u3QnWAVGvDXhe+8ul7d1uB/DfVZLCUjjRvRIxb0bkt0NAHMDFDaPEVc5ZMc8GNhzWXwEQ==
+"@angular/language-service@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2flanguage-service/-/language-service-8.1.3.tgz#beffcb8ca85410c1b4c82101a47dad7ffd5545af"
+  integrity sha512-9s2LWlRlBhUXZ0oWh5ojYKnQgXgYH/VifEXteRWmEJ0dlwDApgw5Jk6usstDhv09XQvLdoumMQwOXf07zjcJrQ==
 
-"@angular/platform-browser-dynamic@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2fplatform-browser-dynamic/-/platform-browser-dynamic-8.2.0-next.1.tgz#51e69837be2a087e654808675dde9398d25ad4ff"
-  integrity sha512-dvLQnkm8ADghr3tMYTgBEBPcQbTX5x6h0W62stK8omiZayiLfPP0GIz7PHC3ngooA6tboWWlSLU6TQoAeLKkjw==
+"@angular/platform-browser-dynamic@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fplatform-browser-dynamic/-/platform-browser-dynamic-8.1.3.tgz#bfa9ee9195b6dc3cb52aec02512fa9a21b048ddc"
+  integrity sha512-tsZWp8aFZNvbJ1TgP75GEfrwLe4SFW02kzEF12o7XlGU/iwnMjEs356rGHeueJZuWMFGS8PLL4mqPic7R5p53Q==
   dependencies:
     tslib "^1.9.0"
 
-"@angular/platform-browser@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2fplatform-browser/-/platform-browser-8.2.0-next.1.tgz#874d4369c94211b332a54baf564e7ae519770901"
-  integrity sha512-tQ2cdT5baYQDHCB8oW7IZv6XQIJaIbceDZMTrlJd27JGeedTkl/gDX17KCN9wsQR1zIeFqlIT9KhWHEQSDSK7A==
+"@angular/platform-browser@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2fplatform-browser/-/platform-browser-8.1.3.tgz#0ff0e82c6017b6bb9cdab6b915ef82979ada11a6"
+  integrity sha512-ihjoJd3OCmn/LBpYEDeCYnYJ1JRzeY6xYySNBEHNHLc07FX0TTiNwiZJHjbKoxdjr7qe6cj6gpT51M77pRlKKw==
   dependencies:
     tslib "^1.9.0"
 
-"@angular/router@~8.2.0-next.1":
-  version "8.2.0-next.1"
-  resolved "http://vmusindatlas:4873/@angular%2frouter/-/router-8.2.0-next.1.tgz#030d0b543dc5a52487341e50644b3e93fe0e8bbf"
-  integrity sha512-C1SxvW1T/lc+XOEre4dyiSqOvMFqW9aUk7mXmY0TGruhOmTXfYaD5pf2fU2JCgq9w5HfgbZ7PfUZTLBNRjgywg==
+"@angular/router@~8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@angular%2frouter/-/router-8.1.3.tgz#c85715827c943f57f09325aea5d8dbcfb38bbea6"
+  integrity sha512-MOalKqqWcTaosHLNE5nmk5rsLRp3jE1PobGaFtbUJKTTZW0vS4rcr6iiRg2bZRv/srGixDXvNLenvYjTpzzTdw==
   dependencies:
     tslib "^1.9.0"
 
@@ -293,32 +292,32 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@ngtools/webpack@8.2.0-next.0":
-  version "8.2.0-next.0"
-  resolved "http://vmusindatlas:4873/@ngtools%2fwebpack/-/webpack-8.2.0-next.0.tgz#3d1806ed499f8066d68a00552e3f7ff9572e086a"
-  integrity sha512-p2UR+7tRMZ9eeI9R7RQRO5X6+R85TTjkaqzD6s3grLGxpmhkcuBnu07Kf0RLpg3pSPvCYwWk9P7tBqqkpGCe0Q==
+"@ngtools/webpack@8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@ngtools%2fwebpack/-/webpack-8.1.3.tgz#9df049b14539109b60590a1ca64cbd80b6e49909"
+  integrity sha512-gSsLMdCJsQp7ZKF5Tl/yfns1eMtmc89J+yoWiOLoSHb8cupP2G4o7DL8wGkylsyALu5eomF/RSnivC9SGvdxYQ==
   dependencies:
-    "@angular-devkit/core" "8.2.0-next.0"
+    "@angular-devkit/core" "8.1.3"
     enhanced-resolve "4.1.0"
     rxjs "6.4.0"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
 
-"@schematics/angular@8.2.0-next.0":
-  version "8.2.0-next.0"
-  resolved "http://vmusindatlas:4873/@schematics%2fangular/-/angular-8.2.0-next.0.tgz#3ae08659aa4966f6d4081da45d2cf06650e0caa6"
-  integrity sha512-mrI34o+e9GgLzJxxaHusllGXcE4e0dzoorO5dWC9Q0bShW0mSNNlWbr+5oJQkeiiuSmDqTjxSwDFLDPqpLEbTw==
+"@schematics/angular@8.1.3":
+  version "8.1.3"
+  resolved "http://vmusindatlas:4873/@schematics%2fangular/-/angular-8.1.3.tgz#dc465dae7ef658ac945551e12990676fdac188ec"
+  integrity sha512-DsR/LDC7Vifw78pDew4HhUYvhKM5gyY8muvJqqfAU9DLq4yZ5ixus7jpqWXNeL3ZalFcH1/yQW20nzLQiLETkA==
   dependencies:
-    "@angular-devkit/core" "8.2.0-next.0"
-    "@angular-devkit/schematics" "8.2.0-next.0"
+    "@angular-devkit/core" "8.1.3"
+    "@angular-devkit/schematics" "8.1.3"
 
-"@schematics/update@0.802.0-next.0":
-  version "0.802.0-next.0"
-  resolved "http://vmusindatlas:4873/@schematics%2fupdate/-/update-0.802.0-next.0.tgz#afd8cd97ed16f47e0a8518d49e8ae12eee917856"
-  integrity sha512-1+XdeVwEKlLXGuuMaCm0OdSFvBxWauXscU3xs6Ftl6MhdiQbRJiDdjD393HKjsr/IG4xWH4gFuSCWOw2wYc4cA==
+"@schematics/update@0.801.3":
+  version "0.801.3"
+  resolved "http://vmusindatlas:4873/@schematics%2fupdate/-/update-0.801.3.tgz#264c1ddc19b8e1c00c99c38dc355f4cafafa6912"
+  integrity sha512-Y4HlG1eMUMlu62Kw2ic1+hF9+kKJlP35o+DO4t2LHKe/Kw+P+HJUeEpr/jocUxV56LDxF43BT3hkc9yJGIQ/Yw==
   dependencies:
-    "@angular-devkit/core" "8.2.0-next.0"
-    "@angular-devkit/schematics" "8.2.0-next.0"
+    "@angular-devkit/core" "8.1.3"
+    "@angular-devkit/schematics" "8.1.3"
     "@yarnpkg/lockfile" "1.1.0"
     ini "1.3.5"
     pacote "9.5.1"
@@ -340,17 +339,10 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/jasmine@*", "@types/jasmine@~3.3.13":
+"@types/jasmine@~3.3.13":
   version "3.3.13"
   resolved "http://vmusindatlas:4873/@types%2fjasmine/-/jasmine-3.3.13.tgz#d5daabb0af47bcddee40597acf6e804433bab439"
   integrity sha512-iczmLoIiVymaD1TIr2UctxjFkNEslVE/QtNAUmpDsD71cZfZBAsPCUv1Y+8AwsfA8bLx2ccr7d95T9w/UAirlQ==
-
-"@types/jasminewd2@~2.0.6":
-  version "2.0.6"
-  resolved "http://vmusindatlas:4873/@types%2fjasminewd2/-/jasminewd2-2.0.6.tgz#2f57a8d9875a6c9ef328a14bd070ba14a055ac39"
-  integrity sha512-2ZOKrxb8bKRmP/po5ObYnRDgFE4i+lQiEB27bAMmtMWLgJSqlIDqlLx6S0IRorpOmOPRQ6O80NujTmQAtBkeNw==
-  dependencies:
-    "@types/jasmine" "*"
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -361,16 +353,6 @@
   version "12.0.10"
   resolved "http://vmusindatlas:4873/@types%2fnode/-/node-12.0.10.tgz#51babf9c7deadd5343620055fc8aff7995c8b031"
   integrity sha512-LcsGbPomWsad6wmMNv7nBLw7YYYyfdYcz6xryKYQhx89c3XXan+8Q6AJ43G5XDIaklaVkK3mE4fCb0SBvMiPSQ==
-
-"@types/q@^0.0.32":
-  version "0.0.32"
-  resolved "http://vmusindatlas:4873/@types%2fq/-/q-0.0.32.tgz#bd284e57c84f1325da702babfc82a5328190c0c5"
-  integrity sha1-vShOV8hPEyXacCur/IKlMoGQwMU=
-
-"@types/selenium-webdriver@^3.0.0":
-  version "3.0.16"
-  resolved "http://vmusindatlas:4873/@types%2fselenium-webdriver/-/selenium-webdriver-3.0.16.tgz#50a4755f8e33edacd9c406729e9b930d2451902a"
-  integrity sha512-lMC2G0ItF2xv4UCiwbJGbnJlIuUixHrioOhNGHSCsYCJ8l4t9hMCUimCytvFv7qy6AfSzRxhRHoGa+UqaqwyeA==
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -568,15 +550,15 @@ accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
-acorn@^6.2.0:
-  version "6.2.0"
-  resolved "http://vmusindatlas:4873/acorn/-/acorn-6.2.0.tgz#67f0da2fc339d6cfb5d6fb244fd449f33cd8bbe3"
-  integrity sha512-8oe72N3WPMjA+2zVG71Ia0nXZ8DpQH+QyyHO+p06jT8eg8FGG3FbcUIi8KziHlAfheJQZeoqbvq1mQSQHXKYLw==
+acorn-dynamic-import@^4.0.0:
+  version "4.0.0"
+  resolved "http://vmusindatlas:4873/acorn-dynamic-import/-/acorn-dynamic-import-4.0.0.tgz#482210140582a36b83c3e342e1cfebcaa9240948"
+  integrity sha512-d3OEjQV4ROpoflsnUA8HozoIR504TFxNivYEUi6uwz0IYhBkTDXGuWlNdMtybRt3nqVx/L6XqMt0FxkXuWKZhw==
 
-adm-zip@^0.4.9:
-  version "0.4.13"
-  resolved "http://vmusindatlas:4873/adm-zip/-/adm-zip-0.4.13.tgz#597e2f8cc3672151e1307d3e95cddbc75672314a"
-  integrity sha512-fERNJX8sOXfel6qCBCMPvZLzENBEhZTzKqg6vrOW5pvoEaQuJhRU4ndTAh6lHOxn1I6jnz2NHra56ZODM751uw==
+acorn@^6.0.5:
+  version "6.2.1"
+  resolved "http://vmusindatlas:4873/acorn/-/acorn-6.2.1.tgz#3ed8422d6dec09e6121cc7a843ca86a330a86b51"
+  integrity sha512-JD0xT5FCRDNyjDda3Lrg/IxFscp9q4tiYtxE1/nOzlKCk7hIRuYjhq1kCNkbPjMRMZuFq20HNQn1I9k8Oj0E+Q==
 
 after@0.8.2:
   version "0.8.2"
@@ -614,10 +596,10 @@ ajv-keywords@^3.1.0:
   resolved "http://vmusindatlas:4873/ajv-keywords/-/ajv-keywords-3.4.0.tgz#4b831e7b531415a7cc518cd404e73f6193c6349d"
   integrity sha512-aUjdRFISbuFOl0EIZc+9e4FfZp0bDZgAdOOf30bJmw8VM9v84SHyVyxDfbWxpGYbdZD/9XoKxfHVNmxPkhwyGw==
 
-ajv@6.10.1:
-  version "6.10.1"
-  resolved "http://vmusindatlas:4873/ajv/-/ajv-6.10.1.tgz#ebf8d3af22552df9dd049bfbe50cc2390e823593"
-  integrity sha512-w1YQaVGNC6t2UCPjEawK/vo/dG8OOrVtUmhBT1uJJYxbl5kU2Tj3v6LGqBcsysN1yhuCStJCCA3GqdvKY8sqXQ==
+ajv@6.10.0, ajv@^6.1.0, ajv@^6.5.5:
+  version "6.10.0"
+  resolved "http://vmusindatlas:4873/ajv/-/ajv-6.10.0.tgz#90d0d54439da587cd7e843bfb7045f50bd22bdf1"
+  integrity sha512-nffhOpkymDECQyR0mnsUtoCE8RlX38G0rYP+wgLWFyZuUyuuojSSvi/+euOiQBIn63whYwYVIIH1TvE3tu4OEg==
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -634,25 +616,15 @@ ajv@^5.0.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-ajv@^6.1.0, ajv@^6.5.5:
-  version "6.10.0"
-  resolved "http://vmusindatlas:4873/ajv/-/ajv-6.10.0.tgz#90d0d54439da587cd7e843bfb7045f50bd22bdf1"
-  integrity sha512-nffhOpkymDECQyR0mnsUtoCE8RlX38G0rYP+wgLWFyZuUyuuojSSvi/+euOiQBIn63whYwYVIIH1TvE3tu4OEg==
-  dependencies:
-    fast-deep-equal "^2.0.1"
-    fast-json-stable-stringify "^2.0.0"
-    json-schema-traverse "^0.4.1"
-    uri-js "^4.2.2"
-
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://vmusindatlas:4873/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-ansi-colors@4.1.1:
-  version "4.1.1"
-  resolved "http://vmusindatlas:4873/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
-  integrity sha512-JoX0apGbHaUJBNl6yF+p6JAFYZ666/hhCGKN5t9QFjbJQKUU/g8MNbFDbvfrgKXvI1QpZplPOnwIo99lX/AAmA==
+ansi-colors@4.1.0:
+  version "4.1.0"
+  resolved "http://vmusindatlas:4873/ansi-colors/-/ansi-colors-4.1.0.tgz#e1674bd61027c8c219b9edec929b6b57641b0c09"
+  integrity sha512-3NkLpm6I6kEgC8J0I9EZ0fouXc/mm5J9zqJFCgA2jGqmsL0O64I7Uvi3AmUMnnRqc6u7uLgVVnY4pyBQ03nCiw==
 
 ansi-colors@^3.0.0:
   version "3.2.4"
@@ -804,11 +776,6 @@ arraybuffer.slice@~0.0.7:
   resolved "http://vmusindatlas:4873/arraybuffer.slice/-/arraybuffer.slice-0.0.7.tgz#3bbc4275dd584cc1b10809b89d4e8b63a69e7675"
   integrity sha512-wGUIVQXuehL5TCqQun8OW81jGzAWycqzFF8lFp+GOM5BXLYj3bKNsYC4daB7n6XjCqxQA/qgTJ+8ANR3acjrog==
 
-arrify@^1.0.0:
-  version "1.0.1"
-  resolved "http://vmusindatlas:4873/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
-  integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
-
 asap@^2.0.0, asap@~2.0.3:
   version "2.0.6"
   resolved "http://vmusindatlas:4873/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
@@ -885,18 +852,18 @@ atob@^2.1.1:
   resolved "http://vmusindatlas:4873/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autoprefixer@9.6.1:
-  version "9.6.1"
-  resolved "http://vmusindatlas:4873/autoprefixer/-/autoprefixer-9.6.1.tgz#51967a02d2d2300bb01866c1611ec8348d355a47"
-  integrity sha512-aVo5WxR3VyvyJxcJC3h4FKfwCQvQWb1tSI5VHNibddCVWrcD1NvlxEweg3TSgiPztMnWfjpy2FURKA2kvDE+Tw==
+autoprefixer@9.6.0:
+  version "9.6.0"
+  resolved "http://vmusindatlas:4873/autoprefixer/-/autoprefixer-9.6.0.tgz#0111c6bde2ad20c6f17995a33fad7cf6854b4c87"
+  integrity sha512-kuip9YilBqhirhHEGHaBTZKXL//xxGnzvsD0FtBQa6z+A69qZD6s/BAX9VzDF1i9VKDquTJDQaPLSEhOnL6FvQ==
   dependencies:
-    browserslist "^4.6.3"
-    caniuse-lite "^1.0.30000980"
+    browserslist "^4.6.1"
+    caniuse-lite "^1.0.30000971"
     chalk "^2.4.2"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
-    postcss "^7.0.17"
-    postcss-value-parser "^4.0.0"
+    postcss "^7.0.16"
+    postcss-value-parser "^3.3.1"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -1071,13 +1038,6 @@ blob@0.0.5:
   resolved "http://vmusindatlas:4873/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
   integrity sha512-gaqbzQPqOoamawKg0LGVd7SzLgXS+JH61oWprSLH+P+abTczqJbhTR8CmJ2u9/bUYNmHTGJx/UEmn6doAvvuig==
 
-blocking-proxy@^1.0.0:
-  version "1.0.1"
-  resolved "http://vmusindatlas:4873/blocking-proxy/-/blocking-proxy-1.0.1.tgz#81d6fd1fe13a4c0d6957df7f91b75e98dac40cb2"
-  integrity sha512-KE8NFMZr3mN2E0HcvCgRtX7DjhiIQrwle+nSVJVC/yqFb9+xznHl2ZcoBp2L9qzkI4t4cBFJ1efXF8Dwi132RA==
-  dependencies:
-    minimist "^1.2.0"
-
 bluebird@^3.3.0, bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.5:
   version "3.5.5"
   resolved "http://vmusindatlas:4873/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
@@ -1220,7 +1180,7 @@ browserslist@4.6.3:
     electron-to-chromium "^1.3.164"
     node-releases "^1.1.23"
 
-browserslist@^4.6.3:
+browserslist@^4.6.1:
   version "4.6.6"
   resolved "http://vmusindatlas:4873/browserslist/-/browserslist-4.6.6.tgz#6e4bf467cde520bc9dbdf3747dafa03531cec453"
   integrity sha512-D2Nk3W9JL9Fp/gIcWei8LrERCS+eXu9AM5cfXA8WEZ84lFks+ARnZ0q/R69m2SV3Wjma83QDDPxsNKXUwdIsyA==
@@ -1228,13 +1188,6 @@ browserslist@^4.6.3:
     caniuse-lite "^1.0.30000984"
     electron-to-chromium "^1.3.191"
     node-releases "^1.1.25"
-
-browserstack@^1.5.1:
-  version "1.5.2"
-  resolved "http://vmusindatlas:4873/browserstack/-/browserstack-1.5.2.tgz#17d8bb76127a1cc0ea416424df80d218f803673f"
-  integrity sha512-+6AFt9HzhKykcPF79W6yjEUJcdvZOV0lIXdkORXMJftGrDl0OKWqRF4GHqpDNkxiceDT/uB7Fb/aDwktvXX7dg==
-  dependencies:
-    https-proxy-agent "^2.2.1"
 
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
@@ -1367,17 +1320,22 @@ camelcase@^5.0.0:
   resolved "http://vmusindatlas:4873/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-caniuse-lite@1.0.30000983:
-  version "1.0.30000983"
-  resolved "http://vmusindatlas:4873/caniuse-lite/-/caniuse-lite-1.0.30000983.tgz#ab3c70061ca2a3467182a10ac75109b199b647f8"
-  integrity sha512-/llD1bZ6qwNkt41AsvjsmwNOoA4ZB+8iqmf5LVyeSXuBODT/hAMFNVOh84NdUzoiYiSKqo5vQ3ZzeYHSi/olDQ==
+caniuse-lite@1.0.30000979:
+  version "1.0.30000979"
+  resolved "http://vmusindatlas:4873/caniuse-lite/-/caniuse-lite-1.0.30000979.tgz#92f16d00186a6cf20d6c5711bb6e042a3d667029"
+  integrity sha512-gcu45yfq3B7Y+WB05fOMfr0EiSlq+1u+m6rPHyJli/Wy3PVQNGaU7VA4bZE5qw+AU2UVOBR/N5g1bzADUqdvFw==
+
+caniuse-lite@^1.0.30000971:
+  version "1.0.30000987"
+  resolved "http://vmusindatlas:4873/caniuse-lite/-/caniuse-lite-1.0.30000987.tgz#bc6b47217afd8226a2b1964635c6bff62cdf5738"
+  integrity sha512-O3VrjtRMTxoU5Cn5/QSmXeIR1gkVps4j9jqfIm4FLaQ5JzqBlVjMUG1xWnoYFv8N+H3Lp++aa05TekyIbjHL7g==
 
 caniuse-lite@^1.0.30000975:
   version "1.0.30000978"
   resolved "http://vmusindatlas:4873/caniuse-lite/-/caniuse-lite-1.0.30000978.tgz#1e3346c27fc46bce9ac1ccd77863153a263dde56"
   integrity sha512-H6gK6kxUzG6oAwg/Jal279z8pHw0BzrpZfwo/CA9FFm/vA0l8IhDfkZtepyJNE2Y4V6Dp3P3ubz6czby1/Mgsw==
 
-caniuse-lite@^1.0.30000980, caniuse-lite@^1.0.30000984:
+caniuse-lite@^1.0.30000984:
   version "1.0.30000984"
   resolved "http://vmusindatlas:4873/caniuse-lite/-/caniuse-lite-1.0.30000984.tgz#dc96c3c469e9bcfc6ad5bdd24c77ec918ea76fe0"
   integrity sha512-n5tKOjMaZ1fksIpQbjERuqCyfgec/m9pferkFQbLmWtqLUdmt12hNhjSwsmPdqeiG2NkITOQhr1VYIwWSAceiA==
@@ -1392,7 +1350,7 @@ caseless@~0.12.0:
   resolved "http://vmusindatlas:4873/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-chalk@^1.1.1, chalk@^1.1.3:
+chalk@^1.1.3:
   version "1.1.3"
   resolved "http://vmusindatlas:4873/chalk/-/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
   integrity sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
@@ -2002,19 +1960,6 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
-del@^2.2.0:
-  version "2.2.2"
-  resolved "http://vmusindatlas:4873/del/-/del-2.2.2.tgz#c12c981d067846c84bcaf862cff930d907ffd1a8"
-  integrity sha1-wSyYHQZ4RshLyvhiz/kw2Qf/0ag=
-  dependencies:
-    globby "^5.0.0"
-    is-path-cwd "^1.0.0"
-    is-path-in-cwd "^1.0.0"
-    object-assign "^4.0.1"
-    pify "^2.0.0"
-    pinkie-promise "^2.0.0"
-    rimraf "^2.2.8"
-
 del@^4.1.1:
   version "4.1.1"
   resolved "http://vmusindatlas:4873/del/-/del-4.1.1.tgz#9e8f117222ea44a31ff3a156c049b99052a9f0b4"
@@ -2415,11 +2360,6 @@ execa@^1.0.0:
     p-finally "^1.0.0"
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
-
-exit@^0.1.2:
-  version "0.1.2"
-  resolved "http://vmusindatlas:4873/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
-  integrity sha1-BjJjj42HfMghB9MKD/8aF8uhzQw=
 
 expand-brackets@^2.1.4:
   version "2.1.4"
@@ -2838,7 +2778,7 @@ glob@7.0.x:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@7.1.4, glob@^7.0.0, glob@^7.0.3, glob@^7.0.6, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
+glob@7.1.4, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
   version "7.1.4"
   resolved "http://vmusindatlas:4873/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   integrity sha512-hkLPepehmnKk41pUGm3sYxoFs/umurYfYJCerbXEyFIWcAzvpipAgVkBqqT9RBKMGjnq6kMuyYwha6csxbiM1A==
@@ -2859,18 +2799,6 @@ globals@^9.18.0:
   version "9.18.0"
   resolved "http://vmusindatlas:4873/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
   integrity sha512-S0nG3CLEQiY/ILxqtztTWH/3iRRdyBLw6KMDxnKMchrtbj2OFmehVh0WUCfW3DUrIgx/qFrJPICrq4Z4sTR9UQ==
-
-globby@^5.0.0:
-  version "5.0.0"
-  resolved "http://vmusindatlas:4873/globby/-/globby-5.0.0.tgz#ebd84667ca0dbb330b99bcfc68eac2bc54370e0d"
-  integrity sha1-69hGZ8oNuzMLmbz8aOrCvFQ3Dg0=
-  dependencies:
-    array-union "^1.0.1"
-    arrify "^1.0.0"
-    glob "^7.0.3"
-    object-assign "^4.0.1"
-    pify "^2.0.0"
-    pinkie-promise "^2.0.0"
 
 globby@^6.1.0:
   version "6.1.0"
@@ -3183,11 +3111,6 @@ image-size@~0.5.0:
   resolved "http://vmusindatlas:4873/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
   integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
 
-immediate@~3.0.5:
-  version "3.0.6"
-  resolved "http://vmusindatlas:4873/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
-  integrity sha1-nbHb0Pr43m++D13V5Wu2BigN5ps=
-
 import-cwd@^2.0.0:
   version "2.1.0"
   resolved "http://vmusindatlas:4873/import-cwd/-/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
@@ -3251,7 +3174,7 @@ inherits@2.0.3:
   resolved "http://vmusindatlas:4873/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-ini@1.3.5, ini@^1.3.4, ini@~1.3.0:
+ini@1.3.5, ini@~1.3.0:
   version "1.3.5"
   resolved "http://vmusindatlas:4873/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
@@ -3282,11 +3205,6 @@ internal-ip@^4.3.0:
   dependencies:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
-
-interpret@^1.0.0:
-  version "1.2.0"
-  resolved "http://vmusindatlas:4873/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
-  integrity sha512-mT34yGKMNceBQUoVn7iCDKDntA7SC6gycMAWzGx1z/CMCTV7b2AAtXlo3nRyHZ1FelRkQbQjprHSYGwzLtkVbw==
 
 invariant@^2.2.2:
   version "2.2.4"
@@ -3462,22 +3380,10 @@ is-number@^7.0.0:
   resolved "http://vmusindatlas:4873/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
-is-path-cwd@^1.0.0:
-  version "1.0.0"
-  resolved "http://vmusindatlas:4873/is-path-cwd/-/is-path-cwd-1.0.0.tgz#d225ec23132e89edd38fda767472e62e65f1106d"
-  integrity sha1-0iXsIxMuie3Tj9p2dHLmLmXxEG0=
-
 is-path-cwd@^2.0.0:
   version "2.1.0"
   resolved "http://vmusindatlas:4873/is-path-cwd/-/is-path-cwd-2.1.0.tgz#2e0c7e463ff5b7a0eb60852d851a6809347a124c"
   integrity sha512-Sc5j3/YnM8tDeyCsVeKlm/0p95075DyLmDEIkSgQ7mXkrOX+uTCtmQFm0CYzVyJwcCCmO3k8qfJt17SxQwB5Zw==
-
-is-path-in-cwd@^1.0.0:
-  version "1.0.1"
-  resolved "http://vmusindatlas:4873/is-path-in-cwd/-/is-path-in-cwd-1.0.1.tgz#5ac48b345ef675339bd6c7a48a912110b241cf52"
-  integrity sha512-FjV1RTW48E7CWM7eE/J2NJvAEEVektecDBVBE5Hh3nM1Jd0kvhHtX68Pr3xsDf857xt3Y4AkwVULK1Vku62aaQ==
-  dependencies:
-    is-path-inside "^1.0.0"
 
 is-path-in-cwd@^2.0.0:
   version "2.1.0"
@@ -3485,13 +3391,6 @@ is-path-in-cwd@^2.0.0:
   integrity sha512-rNocXHgipO+rvnP6dk3zI20RpOtrAM/kzbB258Uw5BWr3TpXi861yzjo16Dn4hUox07iw5AyeMLHWsujkjzvRQ==
   dependencies:
     is-path-inside "^2.1.0"
-
-is-path-inside@^1.0.0:
-  version "1.0.1"
-  resolved "http://vmusindatlas:4873/is-path-inside/-/is-path-inside-1.0.1.tgz#8ef5b7de50437a3fdca6b4e865ef7aa55cb48036"
-  integrity sha1-jvW33lBDej/cprToZe96pVy0gDY=
-  dependencies:
-    path-is-inside "^1.0.1"
 
 is-path-inside@^2.1.0:
   version "2.1.0"
@@ -3694,31 +3593,12 @@ jasmine-core@^3.3, jasmine-core@~3.4.0:
   resolved "http://vmusindatlas:4873/jasmine-core/-/jasmine-core-3.4.0.tgz#2a74618e966026530c3518f03e9f845d26473ce3"
   integrity sha512-HU/YxV4i6GcmiH4duATwAbJQMlE0MsDIR5XmSVxURxKHn3aGAdbY1/ZJFmVRbKtnLwIxxMJD7gYaPsypcbYimg==
 
-jasmine-core@~2.8.0:
-  version "2.8.0"
-  resolved "http://vmusindatlas:4873/jasmine-core/-/jasmine-core-2.8.0.tgz#bcc979ae1f9fd05701e45e52e65d3a5d63f1a24e"
-  integrity sha1-vMl5rh+f0FcB5F5S5l06XWPxok4=
-
 jasmine-spec-reporter@~4.2.1:
   version "4.2.1"
   resolved "http://vmusindatlas:4873/jasmine-spec-reporter/-/jasmine-spec-reporter-4.2.1.tgz#1d632aec0341670ad324f92ba84b4b32b35e9e22"
   integrity sha512-FZBoZu7VE5nR7Nilzy+Np8KuVIOxF4oXDPDknehCYBDE080EnlPu0afdZNmpGDBRCUBv3mj5qgqCRmk6W/K8vg==
   dependencies:
     colors "1.1.2"
-
-jasmine@2.8.0:
-  version "2.8.0"
-  resolved "http://vmusindatlas:4873/jasmine/-/jasmine-2.8.0.tgz#6b089c0a11576b1f16df11b80146d91d4e8b8a3e"
-  integrity sha1-awicChFXax8W3xG4AUbZHU6Lij4=
-  dependencies:
-    exit "^0.1.2"
-    glob "^7.0.6"
-    jasmine-core "~2.8.0"
-
-jasminewd2@^2.1.0:
-  version "2.2.0"
-  resolved "http://vmusindatlas:4873/jasminewd2/-/jasminewd2-2.2.0.tgz#e37cf0b17f199cce23bea71b2039395246b4ec4e"
-  integrity sha1-43zwsX8ZnM4jvqcbIDk5Uka07E4=
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -3816,16 +3696,6 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
-
-jszip@^3.1.3:
-  version "3.2.1"
-  resolved "http://vmusindatlas:4873/jszip/-/jszip-3.2.1.tgz#c5d32df7274042282b157efb16e522b43435e01a"
-  integrity sha512-iCMBbo4eE5rb1VCpm5qXOAaUiRKRUKiItn8ah2YQQx9qymmSAY98eyQfioChEYcVQLh0zxJ3wS4A0mh90AVPvw==
-  dependencies:
-    lie "~3.3.0"
-    pako "~1.0.2"
-    readable-stream "~2.3.6"
-    set-immediate-shim "~1.0.1"
 
 karma-chrome-launcher@~2.2.0:
   version "2.2.0"
@@ -3956,12 +3826,6 @@ less@3.9.0:
     request "^2.83.0"
     source-map "~0.6.0"
 
-"lib-test@https://github.com/fr0/lib-test/blob/ivy/lib-test.tar.gz?raw=true":
-  version "1.0.0"
-  resolved "https://github.com/fr0/lib-test/blob/ivy/lib-test.tar.gz?raw=true#822ed6b818f80babd719b073b93117bdc650d237"
-  dependencies:
-    tslib "^1.9.0"
-
 license-webpack-plugin@2.1.1:
   version "2.1.1"
   resolved "http://vmusindatlas:4873/license-webpack-plugin/-/license-webpack-plugin-2.1.1.tgz#f0ab760f7f301c76f5af52e480f320656b5721bb"
@@ -3969,13 +3833,6 @@ license-webpack-plugin@2.1.1:
   dependencies:
     "@types/webpack-sources" "^0.1.5"
     webpack-sources "^1.2.0"
-
-lie@~3.3.0:
-  version "3.3.0"
-  resolved "http://vmusindatlas:4873/lie/-/lie-3.3.0.tgz#dcf82dee545f46074daf200c7c1c5a08e0f40f6a"
-  integrity sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==
-  dependencies:
-    immediate "~3.0.5"
 
 loader-runner@^2.3.0:
   version "2.4.0"
@@ -4702,7 +4559,7 @@ opn@^5.5.0:
   dependencies:
     is-wsl "^1.1.0"
 
-optimist@^0.6.1, optimist@~0.6.0:
+optimist@^0.6.1:
   version "0.6.1"
   resolved "http://vmusindatlas:4873/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
   integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
@@ -4736,7 +4593,7 @@ os-locale@^3.0.0, os-locale@^3.1.0:
     lcid "^2.0.0"
     mem "^4.0.0"
 
-os-tmpdir@^1.0.0, os-tmpdir@~1.0.1, os-tmpdir@~1.0.2:
+os-tmpdir@^1.0.0, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "http://vmusindatlas:4873/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
@@ -4828,7 +4685,7 @@ pacote@9.5.1:
     unique-filename "^1.1.1"
     which "^1.3.1"
 
-pako@~1.0.2, pako@~1.0.5:
+pako@~1.0.5:
   version "1.0.10"
   resolved "http://vmusindatlas:4873/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
   integrity sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
@@ -4911,7 +4768,7 @@ path-is-absolute@^1.0.0:
   resolved "http://vmusindatlas:4873/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
-path-is-inside@^1.0.1, path-is-inside@^1.0.2:
+path-is-inside@^1.0.2:
   version "1.0.2"
   resolved "http://vmusindatlas:4873/path-is-inside/-/path-is-inside-1.0.2.tgz#365417dede44430d1c11af61027facf074bdfc53"
   integrity sha1-NlQX3t5EQw0cEa9hAn+s8HS9/FM=
@@ -5035,17 +4892,12 @@ postcss-loader@3.0.0:
     postcss-load-config "^2.0.0"
     schema-utils "^1.0.0"
 
-postcss-value-parser@^3.2.3:
+postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.1:
   version "3.3.1"
   resolved "http://vmusindatlas:4873/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
   integrity sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==
 
-postcss-value-parser@^4.0.0:
-  version "4.0.0"
-  resolved "http://vmusindatlas:4873/postcss-value-parser/-/postcss-value-parser-4.0.0.tgz#99a983d365f7b2ad8d0f9b8c3094926eab4b936d"
-  integrity sha512-ESPktioptiSUchCKgggAkzdmkgzKfmp0EU8jXH+5kbIUB+unr0Y4CY9SRMvibuvYUBjNh1ACLbxqYNpdTQOteQ==
-
-postcss@7.0.17, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.17:
+postcss@7.0.17, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.16:
   version "7.0.17"
   resolved "http://vmusindatlas:4873/postcss/-/postcss-7.0.17.tgz#4da1bdff5322d4a0acaab4d87f3e782436bad31f"
   integrity sha512-546ZowA+KZ3OasvQZHsbuEpysvwTZNGJv9EfyCQdsIDltPSWHAeTQ5fQy/Npi2ZDtLI3zs7Ps/p6wThErhm9fQ==
@@ -5095,27 +4947,6 @@ protoduck@^5.0.1:
   integrity sha512-WxoCeDCoCBY55BMvj4cAEjdVUFGRWed9ZxPlqTKYyw1nDDTQ4pqmnIMAGfJlg7Dx35uB/M+PHJPTmGOvaCaPTg==
   dependencies:
     genfun "^5.0.0"
-
-protractor@~5.4.2:
-  version "5.4.2"
-  resolved "http://vmusindatlas:4873/protractor/-/protractor-5.4.2.tgz#329efe37f48b2141ab9467799be2d4d12eb48c13"
-  integrity sha512-zlIj64Cr6IOWP7RwxVeD8O4UskLYPoyIcg0HboWJL9T79F1F0VWtKkGTr/9GN6BKL+/Q/GmM7C9kFVCfDbP5sA==
-  dependencies:
-    "@types/q" "^0.0.32"
-    "@types/selenium-webdriver" "^3.0.0"
-    blocking-proxy "^1.0.0"
-    browserstack "^1.5.1"
-    chalk "^1.1.3"
-    glob "^7.0.3"
-    jasmine "2.8.0"
-    jasminewd2 "^2.1.0"
-    optimist "~0.6.0"
-    q "1.4.1"
-    saucelabs "^1.5.0"
-    selenium-webdriver "3.6.0"
-    source-map-support "~0.4.0"
-    webdriver-js-extender "2.1.0"
-    webdriver-manager "^12.0.6"
 
 proxy-addr@~2.0.5:
   version "2.0.5"
@@ -5191,16 +5022,6 @@ punycode@^2.1.0:
   version "2.1.1"
   resolved "http://vmusindatlas:4873/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-q@1.4.1:
-  version "1.4.1"
-  resolved "http://vmusindatlas:4873/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
-  integrity sha1-VXBbzZPF82c1MMLCy8DCs63cKG4=
-
-q@^1.4.1:
-  version "1.5.1"
-  resolved "http://vmusindatlas:4873/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
-  integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qjobs@^1.1.4:
   version "1.2.0"
@@ -5364,13 +5185,6 @@ readdirp@^3.0.2:
   dependencies:
     picomatch "^2.0.4"
 
-rechoir@^0.6.2:
-  version "0.6.2"
-  resolved "http://vmusindatlas:4873/rechoir/-/rechoir-0.6.2.tgz#85204b54dba82d5742e28c96756ef43af50e3384"
-  integrity sha1-hSBLVNuoLVdC4oyWdW70OvUOM4Q=
-  dependencies:
-    resolve "^1.1.6"
-
 reflect-metadata@^0.1.2:
   version "0.1.13"
   resolved "http://vmusindatlas:4873/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
@@ -5437,7 +5251,7 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-request@^2.83.0, request@^2.87.0, request@^2.88.0:
+request@^2.83.0, request@^2.88.0:
   version "2.88.0"
   resolved "http://vmusindatlas:4873/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
@@ -5500,7 +5314,7 @@ resolve-url@^0.2.1:
   resolved "http://vmusindatlas:4873/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.1.6, resolve@^1.1.7, resolve@^1.10.0, resolve@^1.3.2:
+resolve@^1.1.7, resolve@^1.10.0, resolve@^1.3.2:
   version "1.11.1"
   resolved "http://vmusindatlas:4873/resolve/-/resolve-1.11.1.tgz#ea10d8110376982fef578df8fc30b9ac30a07a3e"
   integrity sha512-vIpgF6wfuJOZI7KKKSP+HmiKggadPQAdsp5HiC1mvqnfp0gF1vdwgBWZIdrVft9pgqoMFQN+R7BSWZiBxx+BBw==
@@ -5535,7 +5349,7 @@ rfdc@^1.1.4:
   resolved "http://vmusindatlas:4873/rfdc/-/rfdc-1.1.4.tgz#ba72cc1367a0ccd9cf81a870b3b58bd3ad07f8c2"
   integrity sha512-5C9HXdzK8EAqN7JDif30jqsBzavB7wLpaubisuQIGHWf2gUXSpzy6ArX/+Da8RjFpagWsCn+pIgxTMAmKw9Zug==
 
-rimraf@^2.2.8, rimraf@^2.5.2, rimraf@^2.5.4, rimraf@^2.6.0, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3:
+rimraf@^2.5.4, rimraf@^2.6.0, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3:
   version "2.6.3"
   resolved "http://vmusindatlas:4873/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
   integrity sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
@@ -5607,26 +5421,19 @@ sass-loader@7.1.0:
     pify "^3.0.0"
     semver "^5.5.0"
 
-sass@1.22.3:
-  version "1.22.3"
-  resolved "http://vmusindatlas:4873/sass/-/sass-1.22.3.tgz#b3591191ab0f3caece39ed9384c90caccacf471c"
-  integrity sha512-9ECcSAEgGStxZkpOCT+Z8F6jEJq+jjPonxgX52QVNeJbRL1CmrjN9qcoO78gob6M1bY4ocGVwPWjGDNMeOgvbg==
+sass@1.22.2:
+  version "1.22.2"
+  resolved "http://vmusindatlas:4873/sass/-/sass-1.22.2.tgz#ed9abee7a3e409fe2ccfdc1b66c64c7c841e0c62"
+  integrity sha512-enuQuy/CbfrZLA2vOy9tB7CK7pP5bZllnMbr5nPGWCFelwt0EMUVGC11gsv9rybkWc8pp/NKVY/c5+AKyjbnXg==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
-
-saucelabs@^1.5.0:
-  version "1.5.0"
-  resolved "http://vmusindatlas:4873/saucelabs/-/saucelabs-1.5.0.tgz#9405a73c360d449b232839919a86c396d379fd9d"
-  integrity sha512-jlX3FGdWvYf4Q3LFfFWS1QvPg3IGCGWxIc8QBFdPTbpTJnt/v17FHXYVAn7C8sHf1yUXo2c7yIM0isDryfYtHQ==
-  dependencies:
-    https-proxy-agent "^2.2.1"
 
 sax@0.5.x:
   version "0.5.8"
   resolved "http://vmusindatlas:4873/sax/-/sax-0.5.8.tgz#d472db228eb331c2506b0e8c15524adb939d12c1"
   integrity sha1-1HLbIo6zMcJQaw6MFVJK25OdEsE=
 
-sax@>=0.6.0, sax@^1.2.4:
+sax@^1.2.4:
   version "1.2.4"
   resolved "http://vmusindatlas:4873/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
@@ -5651,16 +5458,6 @@ select-hose@^2.0.0:
   version "2.0.0"
   resolved "http://vmusindatlas:4873/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
   integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
-
-selenium-webdriver@3.6.0, selenium-webdriver@^3.0.1:
-  version "3.6.0"
-  resolved "http://vmusindatlas:4873/selenium-webdriver/-/selenium-webdriver-3.6.0.tgz#2ba87a1662c020b8988c981ae62cb2a01298eafc"
-  integrity sha512-WH7Aldse+2P5bbFBO4Gle/nuQOdVwpHMTL6raL3uuBj/vPG07k6uzt3aiahu352ONBr5xXh0hDlM3LhtXPOC4Q==
-  dependencies:
-    jszip "^3.1.3"
-    rimraf "^2.5.4"
-    tmp "0.0.30"
-    xml2js "^0.4.17"
 
 selfsigned@^1.10.4:
   version "1.10.4"
@@ -5750,11 +5547,6 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   resolved "http://vmusindatlas:4873/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
-set-immediate-shim@~1.0.1:
-  version "1.0.1"
-  resolved "http://vmusindatlas:4873/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz#4b2b1b27eb808a9f8dcc481a58e5e56f599f3f61"
-  integrity sha1-SysbJ+uAip+NzEgaWOXlb1mfP2E=
-
 set-value@^2.0.0, set-value@^2.0.1:
   version "2.0.1"
   resolved "http://vmusindatlas:4873/set-value/-/set-value-2.0.1.tgz#a18d40530e6f07de4228c7defe4227af8cad005b"
@@ -5808,15 +5600,6 @@ shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "http://vmusindatlas:4873/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
-
-shelljs@^0.8.1:
-  version "0.8.3"
-  resolved "http://vmusindatlas:4873/shelljs/-/shelljs-0.8.3.tgz#a7f3319520ebf09ee81275b2368adb286659b097"
-  integrity sha512-fc0BKlAWiLpwZljmOvAOTE/gXawtCoNrP5oaY7KIaQbbyHeQVg01pSEuEGvGh3HEdBU4baCD7wQBwADmM/7f7A==
-  dependencies:
-    glob "^7.0.0"
-    interpret "^1.0.0"
-    rechoir "^0.6.2"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
@@ -5988,13 +5771,6 @@ source-map-support@0.5.12, source-map-support@^0.5.5, source-map-support@^0.5.6,
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
-
-source-map-support@~0.4.0:
-  version "0.4.18"
-  resolved "http://vmusindatlas:4873/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
-  integrity sha512-try0/JqxPLF9nOjvSta7tVondkP5dwgyLDjVoyMDlmjugT2lRZ1OfsrYTkCd2hkDnJTKRbO/Rl3orm8vlsUzbA==
-  dependencies:
-    source-map "^0.5.6"
 
 source-map-url@^0.4.0:
   version "0.4.0"
@@ -6393,13 +6169,6 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
-tmp@0.0.30:
-  version "0.0.30"
-  resolved "http://vmusindatlas:4873/tmp/-/tmp-0.0.30.tgz#72419d4a8be7d6ce75148fd8b324e593a711c2ed"
-  integrity sha1-ckGdSovn1s51FI/YsyTlk6cRwu0=
-  dependencies:
-    os-tmpdir "~1.0.1"
-
 tmp@0.0.33, tmp@0.0.x, tmp@^0.0.33:
   version "0.0.33"
   resolved "http://vmusindatlas:4873/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -6760,31 +6529,6 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-webdriver-js-extender@2.1.0:
-  version "2.1.0"
-  resolved "http://vmusindatlas:4873/webdriver-js-extender/-/webdriver-js-extender-2.1.0.tgz#57d7a93c00db4cc8d556e4d3db4b5db0a80c3bb7"
-  integrity sha512-lcUKrjbBfCK6MNsh7xaY2UAUmZwe+/ib03AjVOpFobX4O7+83BUveSrLfU0Qsyb1DaKJdQRbuU+kM9aZ6QUhiQ==
-  dependencies:
-    "@types/selenium-webdriver" "^3.0.0"
-    selenium-webdriver "^3.0.1"
-
-webdriver-manager@^12.0.6:
-  version "12.1.5"
-  resolved "http://vmusindatlas:4873/webdriver-manager/-/webdriver-manager-12.1.5.tgz#28817b14d4b16b94ede10d5a7ee187aeb7679edf"
-  integrity sha512-f1apDjMpZ8SHlXtXGzqBxOjV+WQcDRz5PN7pWScgjXS7vhUIFcM3V89Shetf4A04n8DDR2MxiVQq6JproFcRZw==
-  dependencies:
-    adm-zip "^0.4.9"
-    chalk "^1.1.1"
-    del "^2.2.0"
-    glob "^7.0.3"
-    ini "^1.3.4"
-    minimist "^1.2.0"
-    q "^1.4.1"
-    request "^2.87.0"
-    rimraf "^2.5.2"
-    semver "^5.3.0"
-    xml2js "^0.4.17"
-
 webpack-core@^0.6.8:
   version "0.6.9"
   resolved "http://vmusindatlas:4873/webpack-core/-/webpack-core-0.6.9.tgz#fc571588c8558da77be9efb6debdc5a3b172bdc2"
@@ -6870,16 +6614,17 @@ webpack-subresource-integrity@1.1.0-rc.6:
   dependencies:
     webpack-core "^0.6.8"
 
-webpack@4.35.3:
-  version "4.35.3"
-  resolved "http://vmusindatlas:4873/webpack/-/webpack-4.35.3.tgz#66bc35ef215a7b75e8790f84d560013ffecf0ca3"
-  integrity sha512-xggQPwr9ILlXzz61lHzjvgoqGU08v5+Wnut19Uv3GaTtzN4xBTcwnobodrXE142EL1tOiS5WVEButooGzcQzTA==
+webpack@4.35.2:
+  version "4.35.2"
+  resolved "http://vmusindatlas:4873/webpack/-/webpack-4.35.2.tgz#5c8b8a66602cbbd6ec65c6e6747914a61c1449b1"
+  integrity sha512-TZAmorNymV4q66gAM/h90cEjG+N3627Q2MnkSgKlX/z3DlNVKUtqy57lz1WmZU2+FUZwzM+qm7cGaO95PyrX5A==
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
     "@webassemblyjs/wasm-edit" "1.8.5"
     "@webassemblyjs/wasm-parser" "1.8.5"
-    acorn "^6.2.0"
+    acorn "^6.0.5"
+    acorn-dynamic-import "^4.0.0"
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
     chrome-trace-event "^1.0.0"
@@ -6977,19 +6722,6 @@ ws@~3.3.1:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
     ultron "~1.1.0"
-
-xml2js@^0.4.17:
-  version "0.4.19"
-  resolved "http://vmusindatlas:4873/xml2js/-/xml2js-0.4.19.tgz#686c20f213209e94abf0d1bcf1efaa291c7827a7"
-  integrity sha512-esZnJZJOiJR9wWKMyuvSE1y6Dq5LCuJanqhxslH2bxM6duahNZ+HMpCLhBQGZkbX6xRf8x1Y2eJlgt2q3qo49Q==
-  dependencies:
-    sax ">=0.6.0"
-    xmlbuilder "~9.0.1"
-
-xmlbuilder@~9.0.1:
-  version "9.0.7"
-  resolved "http://vmusindatlas:4873/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
-  integrity sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
 
 xmlhttprequest-ssl@~1.5.4:
   version "1.5.5"
