@@ -3,6 +3,7 @@ import {AfterViewInit, Component} from '@angular/core';
 @Component({
   selector: 'app-route1',
   template: `
+    If things are working, you wills see 10 items below.
     <app-items [count]="count"></app-items>
   `
 })
