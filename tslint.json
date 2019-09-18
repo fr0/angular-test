@@ -70,8 +70,8 @@
     "whitespace": [
       false
     ],
-    "directive-selector": [true, "attribute", "adt", "camelCase"],
-    "component-selector": [true, "element", "adt", "kebab-case"],
+    "directive-selector": [true, "attribute", "app", "camelCase"],
+    "component-selector": [true, "element", "app", "kebab-case"],
     "no-inputs-metadata-property": true,
     "no-outputs-metadata-property": true,
     "no-host-metadata-property": true,

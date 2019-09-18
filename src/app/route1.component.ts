@@ -3,17 +3,13 @@ import {AfterViewInit, Component} from '@angular/core';
 @Component({
   selector: 'app-route1',
   template: `
-    If things are working, you wills see 10 items below.
-    <app-items [count]="count"></app-items>
+    <app-expandable-if isExpanded="true">
+      <div header>this is the header</div>
+      <div body>this is the body</div>
+    </app-expandable-if>
+    
   `
 })
-export class Route1Component implements AfterViewInit {
-  count = 0;
-  constructor() {}
+export class Route1Component {
 
-  ngAfterViewInit() {
-    setTimeout(() => {
-      this.count = 10;
-    });
-  }
 }
